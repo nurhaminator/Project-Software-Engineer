@@ -1,0 +1,23 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+div{
+    
+    border-radius: 89% 80% 95% 35% / 90% 35% 90% 87%;
+    height: 300px;
+    width: 300px;
+    animation-name: animate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes animate {
+    0% {background-color: #123456;border-radius: 39% 50% 55% 75% / 20% 65% 30% 57%;}
+    25% {background-color: red;border-radius: 99% 20% 45% 38% / 60% 95% 70% 37%;transform: rotate(-60deg)}
+    50% {background-color: pink; border-radius: 49% 90% 35% 75% / 90% 35% 40% 37%;transform: rotate(-60deg)}
+    75% {background-color: black; border-radius: 60% 10% 95% 85% / 30% 65% 40% 87%;transform: rotate(-60deg)}
+    100% {background-color: pink; border-radius: 99% 20% 35% 75% / 90% 35% 90% 37%;}
+}
